@@ -15,7 +15,7 @@ def get_wine_notes(client, wine_name, region, variety):
     The user will provide the wine name, region, and variety, and you should generate descriptive tasting notes.
     """
 
-    user_input = f"Wine Name: {wine_name}\nRegion: {region}\nVariety: {variety}\nPlease provide tasting notes in 2-3 lines."
+    user_input = f"Wine Name: {wine_name}\nRegion: {region}\nVariety: {variety}\nPlease provide tasting notes ."
     
     try:
         chat_completion = client.chat.completions.create(
